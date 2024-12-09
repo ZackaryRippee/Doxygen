@@ -1,6 +1,10 @@
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
 
+/**
+ * Employee class, holds ID years, hourly rate, hours worked. Provides
+ * methos for printing details, calculating pay, and anniversary.
+ */
 class Employee {
  private:
   int ID; //employee ID

@@ -2,7 +2,10 @@
 #define SUPERVISOR_H
 
 #include "Employee.h"
-
+/*
+ *Supervisor class for employee class, has number of employess supervised, with usual methods like
+ *printing details amd calculating pay
+ */
 class Supervisor : public Employee {
  private:
   int numSupervised;
